@@ -38,7 +38,7 @@ function App() {
         <div className="bg-gray-dark w-20 h-20">Gray Dark</div>
       </div>
 
-      {/* Frontend Mentor attribution */}
+      {/* Frontend Mentor attribution: */}
       <div className="attribution">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
