@@ -19,6 +19,11 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: List build output
+        run: |
+          ls -la dist/
+          cat dist/index.html
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

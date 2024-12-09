@@ -2,6 +2,7 @@
   "name": "job-listings",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://joelbyrd.github.io/job-listings",
   "type": "module",
   "scripts": {
     "dev": "vite",

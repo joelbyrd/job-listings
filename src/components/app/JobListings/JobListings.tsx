@@ -58,7 +58,7 @@ const JobListings: React.FC = () => {
               </ul>
             </div>
             {/* Right Section - Pills */}
-            <div className="flex grow gap-3 flex-wrap justify-start sm:justify-end pt-4 sm:pt-0 mt-4 sm:mt-0 border-t-gray border-t sm:border-t-0">
+            <div className="flex grow gap-3 flex-wrap justify-start sm:justify-end pt-4 sm:pt-0 mt-4 sm:mt-0 border-t-gray border-t sm:border-t-0 w-full">
               <Pill
                 onClick={() => addFilter({ type: "role", value: job.role })}
               >
