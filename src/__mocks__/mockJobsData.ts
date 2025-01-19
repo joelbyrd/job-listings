@@ -50,7 +50,7 @@ export const mockJobs: Job[] = [
 
 export const mockFilters: Filter[] = [
   { type: "role", value: "Frontend" },
-  { type: "level", value: "Junior" },
+  { type: "languages", value: "JavaScript" },
 ];
 
 export const mockContext: JobsSourceReturn = {
