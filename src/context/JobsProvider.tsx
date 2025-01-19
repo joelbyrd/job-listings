@@ -1,9 +1,12 @@
-import { useJobsSource, JobsContext } from "../hooks/useJobs";
+import { JobsContext } from "../hooks/useJobs";
+import { useJobsSource } from "../hooks/useJobsSource";
 
-export function JobsProvider({ children }: { children: React.ReactNode }) {
+export const JobsProvider: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   return (
     <JobsContext.Provider value={useJobsSource()}>
       {children}
     </JobsContext.Provider>
   );
-}
+};

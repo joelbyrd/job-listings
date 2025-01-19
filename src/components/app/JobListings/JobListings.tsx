@@ -11,7 +11,7 @@ const JobListings: React.FC = () => {
         {jobs.map((job) => (
           <li
             key={job.id}
-            className="relative flex flex-col sm:flex-row sm:items-center items-start min-h-32 px-6 sm:py-0 pt-6 pb-4 bg-white shadow-lg rounded"
+            className="relative flex flex-col sm:flex-row sm:items-center items-start min-h-32 px-6 sm:py-0 pt-6 pb-4 bg-white dark:bg-gray-dark shadow-lg rounded"
           >
             {/* Left Section - logo */}
             <div className="w-10 sm:w-16 h-10 sm:h-16 flex-none mr-6 absolute sm:relative top-0 -translate-y-1/2 sm:translate-y-0">
@@ -37,7 +37,7 @@ const JobListings: React.FC = () => {
                 )}
                 {job.featured && (
                   <Pill
-                    className="!ml-2 !rounded-full !text-xxs !bg-gray-dark !text-white !uppercase"
+                    className="!ml-2 !rounded-full !text-xxs !bg-gray-dark !text-white dark:!bg-gray-600 !uppercase"
                     contentClassName="!px-2 !py-1 !leading-none"
                   >
                     Featured
@@ -47,7 +47,7 @@ const JobListings: React.FC = () => {
               <h2 className="text-sm font-bold text-gray-dark">
                 {job.position}
               </h2>
-              <ul className="text-sm text-gray-500 flex">
+              <ul className="text-sm text-gray-500 dark:text-gray-lighter flex">
                 <li className="after:content-['•'] after:mx-2 after:text-gray-400 whitespace-nowrap">
                   {job.postedAt}
                 </li>
@@ -75,6 +75,7 @@ const JobListings: React.FC = () => {
                   onClick={() =>
                     addFilter({ type: "languages", value: language })
                   }
+                  className="custom-class"
                 >
                   {language}
                 </Pill>

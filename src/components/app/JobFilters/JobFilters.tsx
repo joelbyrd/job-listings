@@ -15,6 +15,7 @@ const JobFilters: React.FC = () => {
               <RemovableFilter
                 key={`${filter.type}-${filter.value}`}
                 onRemove={() => removeFilter(filter)}
+                className="custom-class"
               >
                 {filter.value}
               </RemovableFilter>
