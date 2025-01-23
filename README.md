@@ -1,6 +1,6 @@
 # Frontend Mentor - Job listings with filtering solution
 
-This is a solution to the <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt" target="_blank">Job listings with filtering challenge on Frontend Mentor</a>.
+This is a solution to the [Job listings with filtering challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt).
 
 ## Table of contents
 
@@ -30,26 +30,26 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: <a href="https://joelbyrd.github.io/job-listings/" target="_blank">https://joelbyrd.github.io/job-listings/</a>
-- Live Site URL: <a href="https://github.com/joelbyrd/job-listings" target="_blank">https://github.com/joelbyrd/job-listings</a>
+- Solution URL: [https://joelbyrd.github.io/job-listings/](https://joelbyrd.github.io/job-listings/)
+- Live Site URL: [https://github.com/joelbyrd/job-listings](https://github.com/joelbyrd/job-listings)
 
 ## My process
 
 ### Built with
 
-- <a href="https://reactjs.org/" target="_blank">React (18.3)</a> - JS library  
+- [React (18.3)](https://reactjs.org/) - JS library  
   React is a solid tool for building frontend apps -- it's modern, mature, and powerful. With components, reducers, and state, it lets you create scalable UIs that don't fall apart the moment someone clicks something weird.
 
-- <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> - Strongly-typed JavaScript  
+- [TypeScript](https://www.typescriptlang.org/) - Strongly-typed JavaScript  
   TypeScript is like JavaScript with a safety net. Because it is strongly-typed JavaScript, it makes sure you don't accidentally pass a banana where the code expects a car. No more guessing what your data should look like -- TypeScript keeps it clean and sane.
 
-- <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> - For styles  
+- [Tailwind CSS](https://tailwindcss.com/) - For styles  
   Tailwind CSS is a developer's best friend when it comes to styling. It's like playing with LEGO bricks -- quick to build and easy to customize. Plus, it pairs beautifully with a component-based architecture like React, making styling reusable and predictable.
 
-- <a href="https://vite.dev/" target="_blank">Vite</a> - Frontend build tool  
+- [Vite](https://vite.dev/) - Frontend build tool  
   Vite is like Webpack's cool younger sibling -- super fast and doesn't need a ton of babysitting. It gets out of your way, so you can focus on building instead of waiting for the dev server to restart.
 
-- <a href="https://vitest.dev/" target="_blank">Vitest</a> - Testing framework  
+- [Vitest](https://vitest.dev/) - Testing framework  
   Vitest is Jest, but with a caffeine boost. Since I was already using Vite, Vitest was a no-brainer -- same familiar syntax, faster performance, and no “config rage.” It's simple, fast, and doesn't make testing feel like a chore.
 
 - **Mobile-first design**  
@@ -60,5 +60,5 @@ Users should be able to:
 
 ## Author: Joel Byrd
 
-- <a href="https://www.linkedin.com/in/joelbyrd/" target="_blank">LinkedIn</a>
-- <a href="https://x.com/joelmarkbyrd" target="_blank">X (formerly Twitter) - @joelmarkbyrd</a>
+- [LinkedIn](https://www.linkedin.com/in/joelbyrd/)
+- [X (formerly Twitter) - @joelmarkbyrd](https://x.com/joelmarkbyrd)
