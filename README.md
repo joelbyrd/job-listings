@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of website](public/images/screenshot.jpg)
+![Screenshot of website](assets/screenshot.jpg)
 
 ### Links
 
