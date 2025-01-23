@@ -1,8 +1,8 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, test, expect, vi } from "vitest";
-import { JobsContext } from "../../../hooks/useJobs";
-import JobFilters from "./JobFilters";
-import { mockContext, mockFilters } from "../../../__mocks__/mockJobsData";
+import { JobsContext } from "@hooks/useJobs";
+import JobFilters from "@components/app/JobFilters/JobFilters";
+import { mockContext, mockFilters } from "@mocks/mockJobsData";
 
 describe("JobFilters component", () => {
   test("renders the list of filters when filters are present", () => {

@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Pill from "./Pill";
+import Pill from "@components/ui/Pill/Pill";
 
 describe("Pill component", () => {
   test("renders content inside the pill", () => {

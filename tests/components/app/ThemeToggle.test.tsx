@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "@components/app/ThemeToggle";
 
 describe("ThemeToggle component", () => {
   const getItemSpy = vi.spyOn(Storage.prototype, "getItem");

@@ -1,8 +1,8 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, test, expect, vi } from "vitest";
-import { JobsContext } from "../../../hooks/useJobs";
-import JobListings from "./JobListings";
-import { mockContext, mockJobs } from "../../../__mocks__/mockJobsData";
+import { JobsContext } from "@hooks/useJobs";
+import JobListings from "@components/app/JobListings/JobListings";
+import { mockContext, mockJobs } from "@mocks/mockJobsData";
 
 describe("JobListings component", () => {
   test("renders the list of jobs when jobs are present", () => {

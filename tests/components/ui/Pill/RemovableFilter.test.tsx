@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import RemovableFilter from "./RemovableFilter";
+import RemovableFilter from "@components/ui/Pill/RemovableFilter";
 
 describe("RemovableFilter component", () => {
   test("renders content inside the removable filter", () => {

@@ -1,12 +1,12 @@
 import { render, screen } from "@testing-library/react";
 import { vi } from "vitest";
 import React from "react";
-import { JobsContext } from "../hooks/useJobs";
-import { useJobsSource } from "../hooks/useJobsSource";
-import { JobsProvider } from "./JobsProvider";
+import { JobsContext } from "@hooks/useJobs";
+import { useJobsSource } from "@hooks/useJobsSource";
+import { JobsProvider } from "@context/JobsProvider";
 
 // Mock `useJobsSource` using Vitest's `vi` function
-vi.mock("../hooks/useJobsSource", () => ({
+vi.mock("@hooks/useJobsSource", () => ({
   useJobsSource: vi.fn(),
 }));
 

@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, test, expect } from "vitest";
-import { JobsContext, useJobs } from "./useJobs";
-import { mockContext } from "../__mocks__/mockJobsData";
+import { JobsContext, useJobs } from "@hooks/useJobs";
+import { mockContext } from "@mocks/mockJobsData";
 
 describe("useJobs", () => {
   test("provides context value", () => {

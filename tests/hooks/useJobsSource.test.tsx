@@ -1,7 +1,7 @@
 import { render, fireEvent, screen, within, act } from "@testing-library/react";
-import { Filter, useJobsSource } from "./useJobsSource";
-import { jobsReducer, JobsState, JobsAction } from "./useJobsSource";
-import { mockContext, mockJobs, mockFilters } from "src/__mocks__/mockJobsData";
+import { Filter, useJobsSource } from "@hooks/useJobsSource";
+import { jobsReducer, JobsState, JobsAction } from "@hooks/useJobsSource";
+import { mockContext, mockJobs, mockFilters } from "@mocks/mockJobsData";
 
 // hijack fetch call to avoid network request
 beforeEach(() => {
