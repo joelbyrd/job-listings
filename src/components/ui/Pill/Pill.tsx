@@ -20,20 +20,16 @@ const Pill: React.FC<PillProps> = ({
   afterElement,
   as,
   onClick,
-  bgColorClass,
-  colorClass,
-  fontClass,
-  paddingClass,
   className,
   contentClassName,
   ...rest
 }) => {
   const isClickable = !!onClick; // Check if the Pill is clickable
   const Component = as || (isClickable ? "button" : "span"); // Default element
-  const bgColor = bgColorClass || "bg-teal-light dark:bg-teal-dark";
-  const color = colorClass || "text-teal dark:text-gray-light";
-  const font = fontClass || "text-xs font-bold";
-  const padding = paddingClass || "px-3 py-1";
+  const bgColor = "bg-teal-light dark:bg-teal-dark";
+  const color = "text-teal dark:text-gray-light";
+  const font = "text-xs font-bold";
+  const padding = "px-3 py-1";
 
   return (
     <Component
