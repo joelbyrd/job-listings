@@ -10,8 +10,7 @@ This is a solution to the [Job listings with filtering challenge on Frontend Men
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
+  - [Built with](#built-with)
   - [Author: Joel Byrd](#author-joel-byrd)
 
 ## Overview
@@ -33,9 +32,7 @@ Users should be able to:
 - Solution URL: [https://joelbyrd.github.io/job-listings/](https://joelbyrd.github.io/job-listings/)
 - Live Site URL: [https://github.com/joelbyrd/job-listings](https://github.com/joelbyrd/job-listings)
 
-## My process
-
-### Built with
+## Built with
 
 - [React (18.3)](https://reactjs.org/) - JS library  
   React is a solid tool for building frontend apps -- it's modern, mature, and powerful. With components, reducers, and state, it lets you create scalable UIs that don't fall apart the moment someone clicks something weird.
